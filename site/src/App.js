@@ -18,10 +18,12 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Route exact path="/" component={Home} />
-        <Route path="/signin" component={Signin} /> 
-        <Route path="/signout" render={this.signout} /> 
-        <Route path="/signup" component={Signup} />
+        <section className="content">
+          <Route exact path="/" component={Home} />
+          <Route path="/signin" component={Signin} />
+          <Route path="/signout" render={this.signout} />
+          <Route path="/signup" component={Signup} />
+        </section>
       </div>
     );
   }

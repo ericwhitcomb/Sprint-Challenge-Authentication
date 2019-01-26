@@ -69,4 +69,4 @@ Helpful Tip on Testing this Project:
 ## Stretch Problem: Build a front end to interface with your User Auth System
 
 - [x] Add a React client that connects to your API and has pages for `Sign Up`, `Sign In` and showing a list of `Jokes`.
-- Once you have the functionality down, style it!
+- [x] Once you have the functionality down, style it!

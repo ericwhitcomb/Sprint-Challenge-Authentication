@@ -58,10 +58,10 @@ class Signup extends React.Component {
                         onClick={this.handleSubmit}>
                         Sign Up
                     </button>
+                    <div className="message">
+                        {this.state.message}
+                    </div>
                 </form>
-                <div className="form-message">
-                    {this.state.message}
-                </div>
             </>
         )
     }
